@@ -1,0 +1,19 @@
+{
+  "name": "peccala",
+  "version": "1.0.0",
+  "description": "create a NodeJS project that will do the following: - read a value float/double value (with 18 decimal places) from the env file. i.e peccalaValue= 2.123456789012345678 - apply the following equation: peccalaValue = (peccalaValue * 2 + 1.5)/ 7.5 (result should be 18 decimal places without any rounding. - update the env file and call this every 2 minutes. - save the history of peccalaValue in a csv file along with date/time - Make sure it is exactly running every 2 minutes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "run": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bignumber.js": "^9.1.0",
+    "dotenv": "^16.0.3",
+    "node-cron": "^3.0.2"
+  }
+}
