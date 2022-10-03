@@ -10,6 +10,7 @@ Nodejs v16.15.1 (LTS)
 
 ### Commands
 Follow these steps to run the application:
+- create .env file and copy the key from .env.example. value from problem statement. 
 - `npm install` 
 - `npm start`
 
